@@ -1,7 +1,7 @@
 @import url("https://fonts.googleapis.com/css2?family=Montserrat:wght@700&display=swap");
 
 .footer-container {
-  min-height: 30vh;
+  min-height: auto;
   background-color: #545454;
   font-family: "Montserrat", sans-serif;
   color: #f17821;
@@ -19,5 +19,9 @@
 }
 
 .footer-bottom {
+  text-align: center;
+}
+.footer-bottom p {
+  padding-bottom: 5vh;
   text-align: center;
 }
