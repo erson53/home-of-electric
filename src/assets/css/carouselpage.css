@@ -1,0 +1,24 @@
+.page-container {
+  min-height: 100vh;
+  background-color: #545454;
+}
+
+.carousel-container {
+  min-height: 100vh;
+}
+
+.carousel-item {
+  text-align: center;
+  padding-top: 20vh;
+  min-height: 100vh;
+}
+
+.carousel-image {
+  height: 18vh;
+}
+
+.carousel-caption {
+  top: 38vh;
+  font-family: "Montserrat", sans-serif;
+  color: #f17821 !important;
+}
