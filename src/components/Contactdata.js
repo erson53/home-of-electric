@@ -14,8 +14,8 @@ function Contactdata() {
               <div className="contact-data-icon">
                 <svg
                   xmlns="http://www.w3.org/2000/svg"
-                  width="100"
-                  height="100"
+                  width="90"
+                  height="90"
                   fill="#F17821"
                   className="bi bi-telephone"
                   viewBox="0 0 16 16"
@@ -37,8 +37,8 @@ function Contactdata() {
               <div className="contact-data-icon">
                 <svg
                   xmlns="http://www.w3.org/2000/svg"
-                  width="100"
-                  height="100"
+                  width="90"
+                  height="90"
                   fill="#F17821"
                   className="bi bi-envelope"
                   viewBox="0 0 16 16"
@@ -60,8 +60,8 @@ function Contactdata() {
               <div className="contact-data-icon">
                 <svg
                   xmlns="http://www.w3.org/2000/svg"
-                  width="100"
-                  height="100"
+                  width="90"
+                  height="90"
                   fill="#F17821"
                   className="bi bi-instagram"
                   viewBox="0 0 16 16"
