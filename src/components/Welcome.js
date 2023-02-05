@@ -20,7 +20,7 @@ function Welcome() {
         «Ideen sind wertlos, bis man diese umsetzt» Home of Electric.
       </p>
       <p className="welcome-text">
-        Bei Fragen oder Unklarheiten stehe ich Ihnen jeder Zeit zur Verfügung.
+        Bei Fragen oder Unklarheiten stehen wir Ihnen jederzeit zur Verfügung.
       </p>
       <img
         className="welcome-home-of-electric-img"
