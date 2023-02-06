@@ -3,7 +3,8 @@
 .welcome-container {
   background-color: #545454;
   text-align: center;
-  padding: 10vw;
+  padding-inline: 10vw;
+  padding-block: 15vh;
 }
 
 .welcome-title {

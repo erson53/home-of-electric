@@ -1,41 +1,45 @@
 @import url("https://fonts.googleapis.com/css2?family=Montserrat:wght@700&display=swap");
 
-.contact-data-container {
+.contact-data-section-container {
   min-height: 100vh;
   background-color: #545454;
-  padding: 12vw;
+  padding-block: 8vh;
 }
 
-.contact-data-icon {
+.contact-data-container {
+  padding-top: 6vh;
+}
+
+.contact-data-icon-container {
   display: flex;
   justify-content: center;
   padding-bottom: 5vh;
 }
-.button-container {
-  display: flex;
-  justify-content: center;
 
+.contact-data-icon {
+  height: 6rem;
 }
 
-.button-contact-data {
+.contact-data-button-container {
+  display: flex;
+  justify-content: center;
+}
+
+.contact-data-button {
   background-color: transparent;
   color: #f17821;
   border: 5px solid #f17821;
   border-radius: 5px;
   padding-block: 0.5rem;
-  width: 20rem;
+  width: 76vw;
   font-family: "Montserrat", sans-serif;
 }
 
-.button-contact-data:hover {
+.contact-data-button:hover {
   background-color: #f17821;
   color: #545454;
 }
 
 .contact-data-button-text {
   margin: 0;
-}
-
-.data-container {
-  padding-top: 6vh;
 }

@@ -1,6 +1,6 @@
 @import url("https://fonts.googleapis.com/css2?family=Montserrat:wght@700&display=swap");
 
-.home-of-electric-pattern {
+.home-logo-pattern {
   min-height: 100vh;
   background-image: url("../img/home of electric pattern.svg") !important;
   background-size: cover;
@@ -8,25 +8,25 @@
   background-color: #545454;
 }
 
-.diagonal-div {
+.home-diagonal-div {
   min-height: 100vh;
   background-color: #545454;
   clip-path: polygon(50% 0, 100% 0, 100% 50%, 50% 100%, 0 100%, 0% 50%);
 }
 
-.container-text-positioning {
+.home-container-text {
   padding-inline: 4rem;
   min-height: 100vh;
   padding-top: 40vh;
   text-align: center;
 }
 
-.welcome-to {
+.home-welcome-to {
   font-family: "Montserrat", sans-serif;
   color: #f17821;
 }
 
-.title-home-of-electric {
+.home-title {
   font-family: "Montserrat", sans-serif;
   color: #f17821;
 }
