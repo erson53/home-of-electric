@@ -3,11 +3,14 @@ import "../assets/css/contactdata.css";
 import Telephone from "../assets/img/telephone.svg";
 import Mail from "../assets/img/mail.svg";
 import Instagram from "../assets/img/instagram.svg";
+import AOS from "aos";
+import "aos/dist/aos.css";
 
 function Contactdata() {
+  AOS.init();
   return (
     <div className="contact-data-section-container">
-      <div className="contact-data-container">
+      <div data-aos="fade-up" className="contact-data-container">
         <div className="contact-data-icon-container">
           <img src={Telephone} alt="telephone" className="contact-data-icon" />
         </div>
@@ -20,7 +23,7 @@ function Contactdata() {
         </div>
       </div>
 
-      <div className="contact-data-container">
+      <div data-aos="fade-up" className="contact-data-container">
         <div className="contact-data-icon-container">
           <img src={Mail} alt="mail" className="contact-data-icon" />
         </div>
@@ -33,7 +36,7 @@ function Contactdata() {
         </div>
       </div>
 
-      <div className="contact-data-container">
+      <div data-aos="fade-up" className="contact-data-container">
         <div className="contact-data-icon-container">
           <img src={Instagram} alt="Insta" className="contact-data-icon" />
         </div>

@@ -8,11 +8,14 @@ import Speaker from "../assets/img/speaker.svg";
 import Camera from "../assets/img/camera-video.svg";
 import Key from "../assets/img/key.svg";
 import Home from "../assets/img/house.svg";
+import AOS from "aos";
+import "aos/dist/aos.css";
 
 function Servicecarousel() {
+  AOS.init();
   return (
     <>
-      <div className="page-container">
+      <div data-aos="fade-up" className="page-container">
         <Carousel className="carousel-container">
           <Carousel.Item className="carousel-item">
             <img
@@ -87,8 +90,8 @@ function Servicecarousel() {
               <h1>Zutrittskontrolle</h1>
               <p>
                 Keine Lust auf einen riesigen Schlüsselbund wie ein Hausmeister?
-                Wir können Ihnen das Leben einfacher machen, in dem Sie nur Ihren
-                Finger brauchen, um Türen zu öffnen.
+                Wir können Ihnen das Leben einfacher machen, in dem Sie nur
+                Ihren Finger brauchen, um Türen zu öffnen.
               </p>
             </Carousel.Caption>
           </Carousel.Item>
@@ -99,8 +102,8 @@ function Servicecarousel() {
               <h1>Home Services</h1>
               <p>
                 Sie möchten mehr im Homeoffice arbeiten oder eine TV-Wand
-                montieren und benötigen bei der Einrichtung fachliche Hilfe? Dann
-                zögern Sie nicht und kontaktieren Sie uns!
+                montieren und benötigen bei der Einrichtung fachliche Hilfe?
+                Dann zögern Sie nicht und kontaktieren Sie uns!
               </p>
             </Carousel.Caption>
           </Carousel.Item>
