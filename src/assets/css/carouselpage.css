@@ -9,7 +9,7 @@
 
 .carousel-item {
   text-align: center;
-  padding-top: 20vh;
+  padding-top: 24vh;
   min-height: 100vh;
 }
 
@@ -18,7 +18,7 @@
 }
 
 .carousel-caption {
-  top: 38vh;
+  top: 42vh;
   font-family: "Montserrat", sans-serif;
   color: #f17821 !important;
 }

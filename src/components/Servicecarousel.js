@@ -15,8 +15,8 @@ function Servicecarousel() {
   AOS.init();
   return (
     <>
-      <div data-aos="fade-up" className="page-container">
-        <Carousel className="carousel-container">
+      <div className="page-container">
+        <Carousel data-aos="fade-up" className="carousel-container">
           <Carousel.Item className="carousel-item">
             <img
               className="carousel-image"
