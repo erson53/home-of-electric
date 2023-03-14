@@ -6,6 +6,7 @@
   background-size: cover;
   background-position: center center;
   background-color: #545454;
+  background-attachment: fixed;
 }
 
 .home-diagonal-div {
